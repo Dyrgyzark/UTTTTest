@@ -14,6 +14,7 @@ public class UTTTTest {
             int[] moves = {Integer.parseInt(sc.nextLine()), Integer.parseInt(sc.nextLine())};
             fen.addMove(moves[0], moves[1]);
             System.out.println(fen.getFen());
+            fen.printPrettyFen();
         }
     }
 }
